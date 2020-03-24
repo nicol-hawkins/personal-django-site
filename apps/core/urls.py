@@ -3,6 +3,7 @@ from django.conf.urls import url
 from django.views.generic import RedirectView
 from apps.core import views
 
+
 urlpatterns = [
     path('', views.about_me, name="about-me"),
     path('about-me', views.about_me, name="about-me"),
