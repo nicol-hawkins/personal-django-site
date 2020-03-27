@@ -441,6 +441,21 @@
       font-size: 60pt;
     }
   }
+
+  @media screen and (max-width: 1621px) {
+    p.name {
+      font-size: 55pt;
+    }
+
+    img.headshot {
+      margin-top: 15px;
+      margin-left: 15px;
+      width: 325px;
+      height: 325px;
+    }
+
+
+  }
   
   
   @media screen and (max-width: 1200px) {
