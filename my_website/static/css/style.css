@@ -448,10 +448,21 @@
     }
 
     img.headshot {
-      margin-top: 15px;
-      margin-left: 15px;
-      width: 325px;
-      height: 325px;
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 400px;
+      height: 400px;
+    }
+
+    a.nav-btn {
+     
+      height: 45px;
+      margin: 10px;
+      margin-right: 75px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      
     }
 
 
