@@ -206,7 +206,7 @@
     display: inline-flex;
     margin-left: 30px;
     width: 50px;
-    background-color:var(--medgrn);
+    background-color:black;
     opacity: 0.2;
     border-left: 1px black solid;
     border-right: 1px black solid;
@@ -228,7 +228,11 @@
     padding-bottom: 40px;
     padding: 15px;
     margin-left: 25px;
-  
+
+  }
+
+  p {
+    font-size: 13pt;
   }
   
   h1 {
@@ -299,6 +303,144 @@
     border: 1px gray solid;
      
   }
+
+  @media screen and (max-width: 1920px) {
+    .title-bar {
+      display: flex;
+      height: 150px;
+      width: 100%; 
+  
+    } 
+
+    img.headshot {
+      margin-top: 75px;
+      margin-left: 50px;
+      width: 500px;
+      height: 500px;
+    }
+
+    div.text-box {
+      height: 930px;
+      margin: 10px;
+      width: 900px;
+      margin-left: 200px;
+      margin-top: 0px;
+      padding: 45px;
+     
+    }
+
+    p {
+      font-size: 16pt;
+    }
+
+    div.div-art {
+      height: 930px;
+      
+  
+    }
+
+    .site-btns {
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+      margin-top: 100px; 
+    
+    }
+    
+    a.site-btn {
+      margin: 10px;
+      border-radius: 15%;
+      align-content: space-between;
+      text-decoration: none;
+      text-decoration: none;
+      font-family: 'Roboto Mono', monospace;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.8s;
+      color: black;
+      background: var(--lightestgray);
+      padding: 4px;
+      width: 200px;
+      font-size: 25px;
+      text-decoration: none;
+      text-align: center;
+      -webkit-border-radius: 12px;
+    
+    }
+
+    .projects {
+      width: 820px;
+      display: inline-flex;
+      border-top: 2px var(--lightgray) solid;
+      padding-top: 50px;
+      padding-bottom: 50px;  
+      
+    }
+    
+    .proj-info {
+      padding-left: 40px;
+    }
+    
+    
+    .proj-img {
+      width:350px;
+      height: auto;
+      -webkit-border-radius: 12px;
+      border: 1px gray solid;
+       
+    }
+
+    .nav-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  a.nav-btn {
+    color: var(--black);
+    text-transform: lowercase;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    border-radius: 15%;
+    height: 45px;
+    margin: 10px;
+    margin-right: 175px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    justify-content: space-between;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    background: var(--lightestgray);
+    text-decoration: none;
+    -webkit-border-radius: 12px; 
+    
+  }
+
+  p.name {
+    font-size: 70pt;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 0px;
+  
+  }
+
+
+  }
+
+
+  @media screen and (max-width: 1725px) {
+    p.name {
+      font-size: 65pt;
+    }
+  }
+
+  @media screen and (max-width: 1673px) {
+     p.name {
+      font-size: 60pt;
+    }
+  }
   
   
   @media screen and (max-width: 1200px) {
@@ -312,6 +454,10 @@
     p.name {
       font-size: 46pt;
   
+    }
+
+    p {
+      font-size: 13pt;
     }
   
     div.div-art {
@@ -338,6 +484,10 @@
     p.name {
       font-size: 44pt;
   
+    }
+
+    p {
+      font-size: 13pt;
     }
   
     div.div-art {
@@ -368,6 +518,10 @@
       font-size: 50pt;
       flex-direction: column;
       
+    }
+
+    p {
+      font-size: 13pt;
     }
   
     div.nav-btns {
@@ -440,6 +594,10 @@
      p.name {
       font-size: 45pt;
     }
+
+    p {
+      font-size: 13pt;
+    }
   
     img.headshot {
       width: 200px;
@@ -508,6 +666,10 @@
       margin-top: 35px;
       padding: 0px;
   
+    }
+
+    p {
+      font-size: 13pt;
     }
   
     div.nav-btns {
@@ -590,6 +752,10 @@
       margin-top: 35px;
       padding: 0px;
   
+    }
+
+    p {
+      font-size: 13pt;
     }
   
     div.nav-btns {
@@ -675,6 +841,10 @@
       margin-top: 35px;
       padding: 0px;
   
+    }
+
+    p {
+      font-size: 13pt;
     }
   
     div.nav-btns {

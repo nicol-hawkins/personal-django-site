@@ -206,7 +206,7 @@
     display: inline-flex;
     margin-left: 30px;
     width: 50px;
-    background-color:var(--medgrn);
+    background-color:black;
     opacity: 0.2;
     border-left: 1px black solid;
     border-right: 1px black solid;
