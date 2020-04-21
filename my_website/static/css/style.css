@@ -787,6 +787,7 @@
     height: 650px;
     margin-right: 20px;
     margin-left: 20px;
+    overflow: auto;
   }
 
   .projects {
@@ -900,13 +901,13 @@
   }
 
   .text-box {
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
     height: 800px;
-    width: 600px;
+    /* width: 600px;
     overflow: auto;
     padding-bottom: 40px;
     padding: 15px;
-    margin-left: 25px;
+    margin-left: 25px; */
 
   }
 
@@ -1179,7 +1180,7 @@ p.name {
 
  div.text-box {
   width: 66vw;
-  height: 68vh;
+  height: 92vh;
    margin-left: 150px;
  }
 
