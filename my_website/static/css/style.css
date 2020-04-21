@@ -6,16 +6,17 @@
     --black: black;
     --medgrn: #BAC9A9;
     --darkgray: rgb(99, 99, 99);
+    --green: #cbcaa5;
+    --pink: #b48074;
   
   }
   
   body {
     background-image: url("../img/criss-cross.png");
-  
+    
   }
   
-  .title-bar {
-    background-image: url("../img/triangle-mosaic.png");
+  .title-bar {   
     background-size: 15%;
     background-size: auto;
     border-bottom: 5px black dashed;
@@ -26,6 +27,12 @@
     justify-content: space-between;
     align-items: center;
     
+  }
+
+  .gradient {
+    background: rgb(203,202,165);
+    background: linear-gradient(90deg, rgba(203,202,165,1) 0%, rgba(203,202,165,1) 46%, rgba(180,128,116,1) 100%);
+
   }
   
   p.name {
@@ -91,9 +98,9 @@
   
   
   a.nav-btn:hover {
-    color: var(--darkgray);
+    color: black;
     text-decoration: none;
-    background-color: var(--blank);
+    background-color: #cbcaa5;
   }
   
   .main-row {
@@ -120,14 +127,14 @@
   }
   
   .btn-email {
-    color: white;
+    color: black;
     border-radius: 15%;
     font-family: 'Roboto Mono', monospace; 
     font-size: 20px;
     padding: 5px;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
-    background: var(--darkgray);
+    background: #cbcaa5;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
@@ -138,7 +145,7 @@
   }
   
   .btn-email:hover {
-    background-color: var(--medpink); 
+    background-color: #b48074; 
     color: black;
     text-decoration: none;
   
@@ -161,8 +168,10 @@
     font-family: 'Roboto Mono', monospace;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.8s;
+    background-color: #b48074cc;
     color: black;
-    background: var(--lightestgray);
+    /* background: var(--lightestgray); */
+    
     padding: 4px;
     width: 150px;
     font-size: 19px;
@@ -173,8 +182,8 @@
   }
   
   .site-btn:hover {
-    background-color: var(--lgtpink); 
-    color: var(--darkgray);
+    background-color: #cbcaa5; 
+    color: black;
     text-decoration: none;
   
   }
@@ -200,20 +209,6 @@
     
   }
   
-  /* .div-art {
-    display: inline-flex;
-  }
-  
-  .color-div {
-    display: inline-flex;
-    margin-left: 30px;
-    width: 50px;
-    background-color:black;
-    opacity: 0.2;
-    border-left: 1px black solid;
-    border-right: 1px black solid;
-    
-  } */
   
   .content-col {
     overflow: auto;
@@ -224,8 +219,8 @@
     font-family: 'Ubuntu', sans-serif;
     height: 700px;
     width: 700px;
-    color: var(--darkgray);
-    background-color:white;  
+    color: var(--lightestgray);
+    background-color: rgba(0, 0, 0, 0.801);  
     overflow: auto;
     padding-bottom: 40px;
     padding: 45px;
@@ -370,8 +365,6 @@
       font-family: 'Roboto Mono', monospace;
       -webkit-transition-duration: 0.4s; 
       transition-duration: 0.8s;
-      color: black;
-      background: var(--lightestgray);
       padding: 4px;
       width: 200px;
       font-size: 25px;
@@ -384,7 +377,6 @@
     .projects {
       width: 820px;
       display: inline-flex;
-      border-top: 2px var(--lightgray) solid;
       padding-top: 50px;
       padding-bottom: 50px;  
       
@@ -413,8 +405,6 @@
   
   a.nav-btn {
     height: 45px;
-    /* margin: 175px;
-    margin-right: 175px; */
     padding-left: 10px;
     padding-right: 10px;
  
@@ -457,7 +447,6 @@
     .projects {
       width: 820px;
       display: inline-flex;
-      border-top: 2px var(--lightgray) solid;
       padding-top: 50px;
       padding-bottom: 50px;  
       
@@ -472,7 +461,6 @@
       width:350px;
       height: auto;
       -webkit-border-radius: 12px;
-      border: 1px gray solid;
        
     }
 
@@ -499,7 +487,6 @@
     .projects {
       width: 820px;
       display: inline-flex;
-      border-top: 2px var(--lightgray) solid;
       padding-top: 50px;
       padding-bottom: 50px;  
       
@@ -514,7 +501,6 @@
       width:350px;
       height: auto;
       -webkit-border-radius: 12px;
-      border: 1px gray solid;
        
     }
   }
@@ -545,7 +531,6 @@
     .projects {
       width: 900px;
       display: inline-flex;
-      border-top: 2px var(--lightgray) solid;
       padding-top: 50px;
       padding-bottom: 50px;  
       
@@ -560,7 +545,6 @@
       width:350px;
       height: auto;
       -webkit-border-radius: 12px;
-      border: 1px gray solid;
        
     }
 
@@ -624,8 +608,6 @@
       font-family: 'Ubuntu', sans-serif;
       height: 800px;
       width: 600px;
-      color: var(--darkgray);
-      background-color:white;  
       overflow: auto;
       padding-bottom: 40px;
       padding: 15px;
@@ -675,8 +657,6 @@
       font-family: 'Roboto Mono', monospace;
       -webkit-transition-duration: 0.4s; 
       transition-duration: 0.8s;
-      color: black;
-      background: var(--lightestgray);
       padding: 4px;
       width: 175pt;
       font-size: 22pt;
@@ -747,7 +727,6 @@
     .projects {
       width: 375px;
       display: inline-flex;
-      border-top: 2px var(--lightgray) solid;
       padding-top: 50px;
       padding-bottom: 50px;  
       flex-direction: column;
