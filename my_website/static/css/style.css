@@ -299,7 +299,7 @@
   }
 
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 600px) {
     .main-row {
       display: inline;
     }
@@ -309,17 +309,17 @@
       height: 180px;
       width: 180px;
       margin-top: 3vh;
-  }
+    }
 
     .site-btns {
       margin-left: 3vw;
       margin-top: -24vh;
-  }
+    }
 
     a.site-btn {
       font-size: 12pt;
       width: 40vw;
-  } 
+    } 
 
     .text-box {
       margin-top: 6vh;
@@ -328,7 +328,7 @@
       width: 100vw;
       padding: 3vh;
       overflow: auto;
-  }
+    }
 
     div.nav-btns {
       display: flex;
@@ -337,12 +337,12 @@
       padding-left: 10px;
       margin: -29px;
       
-  }
+    }
 
     div.title-bar {
       height: 28vh;
       width: 100vw;
-  }  
+    }  
 
     p.name {
       font-size: 3em;
@@ -372,11 +372,144 @@
     .h1 {
       font-size: 20pt;
     }
-
-    
-
   
 }
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  div.nav-btns {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 65px;
+    
+  }
+
+  a.nav-btn {
+    width: 23vw;
+  }
+
+  .text-box {
+    margin-top: 10vh;
+    width: 100vw;
+    height: 43vh;
+    margin-left: 0;
+    overflow: auto;
+  }
+
+  .main-row {
+    display: inline;
+  }
+
+  .headshot {
+    margin-left: 50vw;
+    height: 315px;
+    width: 315px;
+  }
+
+  .site-btns {
+    margin-top: -21vh;
+    margin-left: 12vw;
+  }
+
+  a.site-btn {
+    font-size: 15pt;
+    width: 24vw;
+  }
+
+  .projects {
+    width: 684px;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+
+  .headshot {
+    margin-left: 57vw;
+    height: 350px;
+    width: 350px;
+  }
+
+  .site-btns {
+    margin-top: -23vh;
+    margin-left: 12vw;
+  }
+
+  .text-box {
+    margin-top: 12vh;
+    height: 45vh;
+  }
+
+  .projects {
+    width: 906px;
+  }
+  
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .headshot {
+    margin-left: 3vw;
+    height: 350px;
+    width: 350px;
+  }
+
+  .site-btns {
+    margin-top: 5vh;
+    margin-left: 10vw;
+  }
+
+  a.site-btn {
+    width: 14vw;
+  }
+
+  .text-box {
+    margin-top: 12vh;
+    height: 45vh;
+  }
+
+  .projects {
+    width: 704px;
+  }
+
+  a.nav-btn {
+    width: 12vw;
+  }
+
+  div.nav-btns {
+    flex-direction: row;
+    margin: -35px
+  }
+
+  .title-bar {
+    height: 19vh; 
+  }
+
+  p.name {
+    font-size: 48pt;
+  }
+  .text-box {
+    margin-top: -75vh;
+    width: 66vw;
+    margin-left: 34vw;
+    height: 83vh;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
 
   /* @media screen and (max-width: 360px) {
     div.title-bar {
