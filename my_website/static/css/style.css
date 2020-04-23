@@ -278,7 +278,7 @@
   }
   
   .projects {
-    width: 800px;
+    width: 54vw;
     display: inline-flex;
     border-top: 2px var(--lightgray) solid;
     padding-top: 25px;
@@ -542,8 +542,10 @@
   }
 
   .text-box {
-    height: 884px;
-
+    height: 82vh;
+    width: 63vw;
+    overflow: auto;
+    
   }
 
 }
@@ -589,7 +591,7 @@
   }
 
   .projects {
-    width: 900px;
+    width: 49vw;
     display: inline-flex;
     padding-top: 50px;
     padding-bottom: 50px;  
@@ -827,7 +829,7 @@ p.name {
  }
 
  .projects {
-   width: 820px;
+   width: 60vw;
    display: inline-flex;
    padding-top: 50px;
    padding-bottom: 50px;  
